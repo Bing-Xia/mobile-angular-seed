@@ -1,0 +1,35 @@
+{
+  "name": "angular_mobile_seed",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Bing-Xia <xbingxin@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mobile-angular-ui": "^1.2.1",
+    "angular": "angularjs#^1.5.5",
+    "angular-route": "^1.5.5"
+  },
+  "exportsOverride": {
+    "mobile-angular-ui": {
+      "js": "dist/js/*.min.js",
+      "css": "dist/css/*.min.css",
+      "fonts": "dist/fonts/*.*"
+    },
+    "angular": {
+      "js": "./*.min.js"
+    },
+    "angular-route": {
+      "js": "./*.min.js"
+    }
+  }
+}
